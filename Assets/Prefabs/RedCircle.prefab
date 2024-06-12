@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7418378478074420686}
   - component: {fileID: 1365118107821093126}
   - component: {fileID: -4114911851897362949}
-  - component: {fileID: 4199908030285420228}
+  - component: {fileID: 7473017471211524938}
   m_Layer: 0
   m_Name: RedCircle
   m_TagString: Untagged
@@ -99,15 +99,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b36ad7e3371516418e9fa59783e9416, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!58 &4199908030285420228
-CircleCollider2D:
+--- !u!136 &7473017471211524938
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 382691693753330684}
-  m_Enabled: 1
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -116,21 +114,11 @@ CircleCollider2D:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_ProvidesContacts: 0
+  m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.5000001
+  m_Radius: 0.5
+  m_Height: 1.0000002
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}

@@ -9,9 +9,12 @@ public class RedCircle : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("RedCircle Start");
         circleRenderer = GetComponent<Renderer>();
         circleRenderer.material.color = Color.white;
         StartCoroutine(ChangeColorAndDestroy());
+
+
     }
 
     private IEnumerator ChangeColorAndDestroy()
@@ -25,8 +28,10 @@ public class RedCircle : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("Trigger Enter");
         if (isRed && other.CompareTag("Player"))
         {
+            Debug.Log("Player collided with red circle");
             GameOver();
         }
     }

@@ -162,7 +162,6 @@ Transform:
   - {fileID: 2013789210}
   - {fileID: 1458112092}
   - {fileID: 168031056}
-  - {fileID: 2009751020}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &28394954
@@ -1632,55 +1631,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2009751018
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2009751020}
-  - component: {fileID: 2009751019}
-  m_Layer: 0
-  m_Name: RedCircleSpawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2009751019
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2009751018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c2c20cd43acb204418bcfbb1f2c7894c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  redCirclePrefab: {fileID: 382691693753330684, guid: a5dde8e3fc48f504b94db7caaadf478a,
-    type: 3}
-  spawnInterval: 5
-  spawnAreaMin: {x: -10, y: 0.1, z: 10}
-  spawnAreaMax: {x: 10, y: 0.1, z: -10}
---- !u!4 &2009751020
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2009751018}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.7101192, y: 10.519374, z: -0.8887622}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 28394953}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2013789209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1890,6 +1840,84 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5283052551810969991
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 322387266308469002, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_Name
+      value: RedCircleSpawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 4232956070567569771, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4232956070567569771, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655787735064099416, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655787735064099416, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655787735064099416, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655787735064099416, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655787735064099416, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655787735064099416, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655787735064099416, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655787735064099416, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655787735064099416, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8655787735064099416, guid: a9f6f26307bcffe4b81e21319261260f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a9f6f26307bcffe4b81e21319261260f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1898,6 +1926,7 @@ SceneRoots:
   - {fileID: 170076735}
   - {fileID: 28394953}
   - {fileID: 2036560337}
+  - {fileID: 5283052551810969991}
   - {fileID: 836527139}
   - {fileID: 815359412}
   - {fileID: 1404210765}

@@ -23,7 +23,10 @@ public class RedCircle : MonoBehaviour
         circleRenderer.material.color = Color.red;
         isRed = true;
         yield return new WaitForSeconds(1f);
-        Destroy(gameObject);
+        if (isRed)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void OnTriggerEnter(Collider other)

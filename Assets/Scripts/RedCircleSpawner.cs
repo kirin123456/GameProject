@@ -1,15 +1,32 @@
+using System.Collections;
 using UnityEngine;
 
 public class RedCircleSpawner : MonoBehaviour
 {
     public GameObject redCirclePrefab;
-    public float spawnInterval = 5f;
+    public float initialSpawnInterval = 5f;
+    public float minSpawnInterval = 1f;
+    public float intervalDecreaseRate = 0.1f;
     public Vector3 spawnAreaMin; // 스테이지의 최소 좌표
     public Vector3 spawnAreaMax; // 스테이지의 최대 좌표
 
+    private float currentSpawnInterval;
+
     private void Start()
     {
-        InvokeRepeating("SpawnRedCircle", spawnInterval, spawnInterval);
+        currentSpawnInterval = initialSpawnInterval;
+        StartCoroutine(SpawnRedCircleRoutine());
+    }
+
+    private IEnumerator SpawnRedCircleRoutine()
+    {
+        while (true)
+        {
+            SpawnRedCircle();
+            yield return new WaitForSeconds(currentSpawnInterval);
+            // 빨간 원 생성 간격을 줄입니다.
+            currentSpawnInterval = Mathf.Max(minSpawnInterval, currentSpawnInterval - intervalDecreaseRate);
+        }
     }
 
     private void SpawnRedCircle()

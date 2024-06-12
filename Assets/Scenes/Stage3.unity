@@ -224,8 +224,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114442642186586938, guid: ce2ce0129b59742da9ed45f94a0b5570,
         type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1789528809916358, guid: 438baf1ffe66b09419607a403b20defb,
+        type: 3}
+    - target: {fileID: 114442642186586938, guid: ce2ce0129b59742da9ed45f94a0b5570,
+        type: 3}
       propertyPath: spawnRateMax
-      value: 8
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1170,8 +1176,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114442642186586938, guid: ce2ce0129b59742da9ed45f94a0b5570,
         type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1789528809916358, guid: 438baf1ffe66b09419607a403b20defb,
+        type: 3}
+    - target: {fileID: 114442642186586938, guid: ce2ce0129b59742da9ed45f94a0b5570,
+        type: 3}
       propertyPath: spawnRateMax
-      value: 8
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1485,8 +1497,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114442642186586938, guid: ce2ce0129b59742da9ed45f94a0b5570,
         type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1789528809916358, guid: 438baf1ffe66b09419607a403b20defb,
+        type: 3}
+    - target: {fileID: 114442642186586938, guid: ce2ce0129b59742da9ed45f94a0b5570,
+        type: 3}
       propertyPath: spawnRateMax
-      value: 8
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1944,8 +1962,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114442642186586938, guid: ce2ce0129b59742da9ed45f94a0b5570,
         type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 1789528809916358, guid: 438baf1ffe66b09419607a403b20defb,
+        type: 3}
+    - target: {fileID: 114442642186586938, guid: ce2ce0129b59742da9ed45f94a0b5570,
+        type: 3}
       propertyPath: spawnRateMax
-      value: 8
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

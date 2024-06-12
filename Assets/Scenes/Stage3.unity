@@ -162,6 +162,7 @@ Transform:
   - {fileID: 2013789210}
   - {fileID: 1458112092}
   - {fileID: 168031056}
+  - {fileID: 1410902298}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &28394954
@@ -936,7 +937,7 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
   m_Convex: 0
   m_CookingOptions: 30
@@ -1436,7 +1437,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 28394953}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1458112091
 PrefabInstance:
@@ -1969,4 +1970,3 @@ SceneRoots:
   - {fileID: 815359412}
   - {fileID: 1404210765}
   - {fileID: 1961604263}
-  - {fileID: 1410902298}

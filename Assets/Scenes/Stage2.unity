@@ -2089,7 +2089,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spherePrefab: {fileID: 8581340955222834037, guid: 09a4507efc0a48247b8ea29864b15950,
     type: 3}
-  spawnInterval: 15
+  spawnInterval: 10
   spawnAreaMin: {x: -10, y: 0.5, z: 10}
   spawnAreaMax: {x: 10, y: 0.5, z: -10}
 --- !u!4 &1961604263
